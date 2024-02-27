@@ -1,0 +1,90 @@
+.firstpage{
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  background-color: black;
+}
+
+.transparent{
+  background-color: transparent;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.text-white{
+  color: white;
+}
+
+.pic{
+  width: 200px;
+  height: 200px;
+}
+
+.pic2{
+  width: 300px;
+  height: 400px;
+}
+
+
+.hearts0{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.viewport-header {
+  position: relative;
+/*  height: 100vh;*/
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first_neon_text {
+ font-family: neon;
+ background-color: transparent;
+ color: #Ff0000;
+/* font-size: 16px;*/
+ text-shadow:
+    0 0 7px #Ff0000, 0 0 10px #Ff0000, 0 0 21px #Ff0000, 0 0 42px #0fa, 0 0 82px #0fa, 
+    0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+ animation: neon-animation 1s ease-in-out infinite alternate; 
+}
+
+@keyframes first_neon-animation {
+  0% {
+    text-shadow: 0 0 10px #Ff0000, 0 0 20px #Ff0000, 0 0 30px #Ff0000, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  100% {
+    text-shadow: 0 0 10px #Ff0000, 0 0 20px #Ff0000, 0 0 30px #Ff0000, 0 0 40px #00ff86, 0 0 70px #00ff86, 0 0 80px #00ff86, 0 0 100px #00ff86, 0 0 150px #00ff86;
+  }
+}
+
+.neon_text {
+ font-family: neon;
+ background-color: transparent;
+ color: #fff;
+/* font-size: 16px;*/
+ text-shadow:
+    0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 
+    0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+ animation: neon-animation 1s ease-in-out infinite alternate; 
+}
+
+@keyframes neon-animation {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00ff86, 0 0 70px #00ff86, 0 0 80px #00ff86, 0 0 100px #00ff86, 0 0 150px #00ff86;
+  }
+}
+
